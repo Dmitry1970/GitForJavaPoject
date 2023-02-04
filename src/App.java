@@ -13,9 +13,9 @@ public class App {
                 " с начала очередного часа - " + minutes + "\n" + "полных секунд с начала очередной минуты - " + leftSeconds);
     }
     static int requestNumber() {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число: ");
-        return sc.nextInt();
+        return scanner.nextInt();
      
     }   
 }
